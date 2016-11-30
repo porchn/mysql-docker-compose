@@ -11,6 +11,7 @@ services:
       MYSQL_DATABASE: mysqldb
       MYSQL_USER: mysqluser
       MYSQL_PASSWORD: 1q2w3e4r
+      MYSQL_ONETIME_PASSWORD: yes
       TZ: Asia/Bangkok
     restart: always
     ports:
